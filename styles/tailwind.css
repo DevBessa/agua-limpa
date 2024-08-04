@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-primary text-highlight;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply bg-highlight text-white font-bold py-2 px-4 rounded;
+  }
+
+  .btn:hover {
+    @apply bg-accent;
+  }
+
+  .card {
+    @apply bg-bgDark text-textLight p-12 rounded-lg shadow-lg;
+  }
+
+  .header {
+    @apply bg-accent p-6 shadow-md;
+  }
+
+  .footer {
+    @apply bg-accent p-4 mt-8 shadow-md;
+  }
+
+  .container-center {
+    @apply container mx-auto flex justify-center items-center min-h-screen-75;
+  }
+
+  .section-title {
+    @apply text-5xl font-semibold text-center;
+  }
+
+  .section-subtitle {
+    @apply mt-6 text-2xl text-center;
+  }
+}

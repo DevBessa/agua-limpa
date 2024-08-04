@@ -1,0 +1,14 @@
+{
+  "name": "siteagro",
+  "version": "1.0.0",
+  "description": "Conscientização sobre Água Contaminada por Agrotóxicos",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss build styles/tailwind.css -o styles/output.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.0.0"
+  }
+}
